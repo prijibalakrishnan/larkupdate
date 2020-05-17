@@ -28,10 +28,10 @@ Updates to Lark (the spectral lighting workflow in grasshopper) is based on the 
 ```
 
 ## Grasshopper Components
-1. `Build Gendaylit Spectral Radiance Sky Definitions.ghuser` : this grasshopper user object is build on the original Lark component *Build Spectral Radiance Sky Degfinitions* but replaces the gensky with gendaylit sky definition.
+1. `Build Gendaylit Spectral Radiance Sky Definitions.ghuser`: this grasshopper user object is build on the original Lark component *Build Spectral Radiance Sky Definitions* but replaces the gensky with gendaylit sky definition.
 ![Image](Img/Gendaylit.jpeg)
 
-2. `Diffuse Sky Correlated Color Temperature.ghuser` : this grasshopper user object helps generate a weighted Correlated Color Temperature (CCT) for a diffuse sky from a measured Global CCT that includes the sun and sky. For a clear sky scenario, Lark adds the *sun* to the generated *sky*. This component helps to compensate for the added sun when using measured global CCT. Use the generated diffuse sky CCT as an input in the [Rochester Institute of Technology's excel daylight series calculator] (https://www.rit.edu/cos/colorscience/rc_useful_data.php) to generate Spectral Power Distribution (spd) input for Lark.
+2. `Diffuse Sky Correlated Color Temperature.ghuser`: this grasshopper user object helps generate a weighted Correlated Color Temperature (CCT) for a diffuse sky from a measured Global CCT that includes the sun and sky. For a clear sky scenario, Lark adds the *sun* to the generated *sky*. This component helps to compensate for the added sun when using measured global CCT. Use the generated diffuse sky CCT as an input in the [Rochester Institute of Technology's excel daylight series calculator](https://www.rit.edu/cos/colorscience/rc_useful_data.php) to generate Spectral Power Distribution (spd) input for Lark.
 ![Image](Img/DiffuseCCT.jpeg)
 
 
