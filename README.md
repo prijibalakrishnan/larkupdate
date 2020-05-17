@@ -4,7 +4,7 @@ Grasshopper components (user objects) that enables using [Lark](https://faculty.
 
 ## Terms of use
 
-Updates to Lark (the spectral lighting workflow in grasshopper) is based on the published conference paper *Spectral Rendering with Daylight: A Comparison of Two Spectral Daylight Simulation Platforms* and my PhD dissertation *Measuring and Modelling Equatorial Light*. Kindly cite either the paper or dissertation when using the components.
+Updates to Lark (the spectral lighting workflow in grasshopper) is based on the published conference paper [*Spectral Rendering with Daylight: A Comparison of Two Spectral Daylight Simulation Platforms*](http://www.ibpsa.org/proceedings/BS2019/BS2019_211158.pdf) and my PhD dissertation [*Measuring and Modelling Equatorial Light*](http://thedaylightsite.com/measuring-and-modelling-equatorial-light/). Kindly cite either the paper or dissertation when using the components.
 
 ```
 @INPROCEEDINGS{balakrishnanSpectral2019,
